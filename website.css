@@ -1,0 +1,75 @@
+.container {
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.header-outer {
+    background-color: gray;
+}
+
+.unique {
+    background-color: rgb(241, 198, 198);
+}
+.for_mode button{
+    cursor: pointer;
+}.button{
+    cursor: pointer;
+}
+.font-size-18px {
+    font-size: 12px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+.heading-h2-fontsize{
+     font-size: 27px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+.foter-outer {
+    padding-left: 20px;
+    height:40px;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+#popup {
+    display: none;
+    color: black;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(rgb(168, 132, 132), rgb(233, 233, 200));
+    border: 1px, groove, white;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+};
+
+.footer {
+    height: 30px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
